@@ -1,0 +1,84 @@
+<html>
+ <link rel="stylesheet" type="text/css" href="/Users/ivandenisov/freecodcamp/survey_form/index.css">
+ <h1 id="title">Angry Birds Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+ 
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+ 
+  <label id="number-label" for="number">    
+ <p>Age:</p>
+  </label>
+  
+<input id="number" type="number" placeholder="Enter Your Age" min="14" max="80" required>
+  
+  <p>Which Leadership quality Do You think make Bird A Good Leader:</p>
+<select id="dropdown">  
+  
+  <option value="default">Nothing</option>
+ 
+  <option value="Great Ancient Power">Great Ancient Power</option> 
+  
+  <option value="The ability to blow up everything around">The ability to blow up everything around</option>  
+  
+  <option value="Fight with wood structures">Fight with wood structures</option>  
+  
+  <option value="The pursuit of a split personality">
+The pursuit of a split personality</option>
+  
+    <option value="The ability to break everything with eggs">The ability to break everything with eggs</option>
+  
+  <option value="The ability to break down walls with a voice">The ability to break down walls with a voice</option>
+  
+  <option value="Perfom a Loop">Perfom a Loop</option>
+  
+  </select>
+  
+<p>What is your favorite bird?</p>
+ 
+  <input type="radio" name="bird" value="1">Red</input>
+<br>
+<input type="radio" name="bird" value="2">The Blues</input>
+<br>
+<input type="radio" name="bird" value="3">Chuck</input>
+<br>
+<input type="radio" name="bird" value="4">Matilda</input>
+<br>
+<input type="radio" name="bird" value="5">Silver</input>
+<br>
+<input type="radio" name="bird" value="6">Bomb</input>
+<br>
+<input type="radio" name="bird" value="7">Terence</input>
+
+
+<p>Which of other birds (Additional 3 from Angry birds-2) Do you like?</p>
+
+<input type="checkbox" name="avenger" value="1">Stella</input>
+<br>
+<input type="checkbox" name="avenger" value="2">Hal</input>
+<br>
+<input type="checkbox" name="avenger" value="3">Bubbles</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add your comment here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+  
+</form>  
+
+</div>
+</html>
