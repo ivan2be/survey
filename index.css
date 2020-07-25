@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: sens-serif;
+    background-image: linear-gradient(to top, rgba(0,34,45,0.3), rgba(255,0,0,0.3)), url(https://vignette.wikia.nocookie.net/angrybirds/images/3/30/RedEvolution.png/revision/latest?cb=20190217052216);
+    color:white;
+  }
+  
+  #title {
+    font-size:45px;
+  }
+  #description {
+    font-size:20px;
+  }
+  
+  #body {
+    width:600px;
+    padding:30px;
+    margin:auto;
+    border-radius:10px;
+    text-align:left;
+    background-color:rgba(0, 0, 0, 0.6);
+    font-size:20px;
+    color:white;
+  }
+  
+  #name {
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  
+  #email {
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  
+  #number {
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  
+  #dropdown {
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  
+  #comment {
+    width:560px;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+  }
+  
+  #submit {
+    width:590px;
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    margin-top:34px;
+    color:white;
+    background-color:green;
+  }
